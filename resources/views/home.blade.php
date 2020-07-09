@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/34b9ea8fdc.js"></script>
     <link rel="stylesheet" type = "text/css" href="/css/home.css">
-    <link rel = "icon" type = "image/png" href = "{{asset('/storage/logo4.png')}}">
+    <link rel = "icon" type = "image/png" href = "/storage/logo4.png">
     <title>mmarketing</title>
   </head>
   <body>
     <header id="header" class="container-fluid">
       <div class="row navbarbig">
         <div id="logo" class="col-12 text-center pt-0">
-          <img class="logobig" src="{{asset('/storage/logo4.jpeg')}}" alt="imagen">
+          <img class="logobig" src="/storage/logo4.jpeg" alt="imagen">
         </div>
         <div class="col-12 text-center">
           <nav id="navbar">
@@ -47,7 +47,7 @@
          </div>
         </div>
         <div class="col-sm-10">
-            <img class="logo" src="{{asset('/storage/logo.jpeg')}}" alt="imagen">
+            <img class="logo" src="/storage/logo.jpeg" alt="imagen">
         </div>
       </div>
       <script type="text/javascript">
@@ -58,7 +58,7 @@
 
     </header>
     <main id="main" class="container-fluid pr-0 mr-0">
-      <div class="row palmtrees pr-0 mr-0" style="background-image: url({{asset('/storage/palmtrees.png')}})">
+      <div class="row palmtrees pr-0 mr-0" style="background-image: url('/storage/palmtrees.png')">
         <span class="col-12 text-center pt-5 mt-5">
           <h1 class="title pt-5 family black">Proper marketing</h1>
           <h2 class="pt-0 subtitle family black">for growing<br>businesses</h2>
@@ -70,7 +70,7 @@
           <p class="medium black family">An independent marketing consultancy<br>for small businesses with tall ambitions</p>
         </div>
         <div class="col-12 text-center">
-          <img class="circls" alt="" src="{{asset('/storage/circls.png')}}">
+          <img class="circls" alt="" src="/storage/circls.png">
         </div>
       </div>
       <div id="about"class="row">
@@ -80,7 +80,7 @@
       </div>
       <div class="row pt-4">
         <div class="col-sm-12 col-lg-6 text-center p-0">
-          <img class="marie" src="{{asset('/storage/marie.png')}}" alt="">
+          <img class="marie" src="/storage/marie.png" alt="">
         </div>
         <div class="col-sm-12 col-lg-6 text-center pr-5 pt-4">
           <p class="small black family pr-5">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -97,7 +97,7 @@
       <div id="services" class="row container pt-3 pb-0 mb-0">
         <div class="servicesbig col-8 text-left pt-3 pl-5 pb-0 mb-0">
           <p class="big black family pl-5">How<br>I can<br>help<span class="blue">.</span></p>
-          <img style="position:absolute; bottom:0px;"src="{{asset('/storage/white-palm.png')}}" alt="" class="png2 pb-0 mb-0">
+          <img style="position:absolute; bottom:0px;"src="/storage/white-palm.png" alt="" class="png2 pb-0 mb-0">
         </div>
         <div class="servicessmall col-sm-12 text-left pt-3 pl-5 pb-0 mb-0 pr-0">
           <p class="big black family pl-5 pr-0">How I can help<span class="blue">.</span></p>
@@ -220,10 +220,10 @@
           <p class="medium black family">footer</p>
         </div>
         <div class="col-6 text-center pt-5">
-          <img class="png" src="{{asset('/storage/white-palm.png')}}" alt="">
+          <img class="png" src="/storage/white-palm.png" alt="">
         </div>
     </footer>
-  <script src="{{ asset('js/home.js') }}"></script>
+  <script src="/js/home.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
