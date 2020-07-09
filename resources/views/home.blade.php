@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/34b9ea8fdc.js"></script>
-    <link rel="stylesheet" type = "text/css" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" type = "text/css" href="/css/home.css">
     <link rel = "icon" type = "image/png" href = "{{asset('/storage/logo4.png')}}">
     <title>mmarketing</title>
   </head>
