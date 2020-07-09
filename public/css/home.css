@@ -1,0 +1,320 @@
+#header{
+background-color: white;
+}
+
+#header .logobig{
+  width:400px;
+  height:120px;
+}
+
+#navbar .navlink{
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+#navbar .navlink:hover{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#navbar ul li{
+  display:inline;
+  text-decoration: none;
+  padding-right: 28px;
+}
+
+#main .palmtrees{
+  width: 100%;
+  height:550px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-left:0px;
+  padding-right: 0px;
+}
+
+#main .title{
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+#main .subtitle{
+  font-size: 50px;
+  font-weight: lighter;
+  padding-top:0px;
+}
+
+#home  p{
+  font-weight: bold;
+  padding-top:30px;
+}
+
+#about  p{
+  font-weight: bold;
+  padding-top:30px;
+}
+
+.family{
+  font-family: Raleway, sans-serif;
+}
+
+.small{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.medium{
+  font-size: 35px;
+}
+
+.big{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
+.blue{
+  color: #A3F0E1;
+}
+
+.white{
+  color:white;
+}
+
+.contact_button{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: Raleway, monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 0px;
+  border: 3px solid white;
+  background-color: transparent;
+}
+
+.contact_button:hover{
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+
+.circls{
+  width:100%;
+}
+
+
+.sectors{
+  min-height: 180px;
+  background-color:#A3F0E1;
+}
+
+.services{
+  width:100%;
+}
+
+.goals{
+  background-color: grey;
+}
+
+.png{
+  max-height:300px;
+}
+
+.png2{
+  max-height:500px;
+}
+
+.contact-form{
+  background-color: #A3F0E1;
+  border-radius: 10%;
+}
+
+.contact-submit{
+font-family: Raleway, monospace;
+font-size: 12px;
+color: white;
+font-weight: bolder;
+text-transform: uppercase;
+padding: 10px;
+border-radius: 0px;
+border: 3px solid white;
+background-color: transparent;
+margin: 0 auto;
+}
+
+#header #dropdown-small{
+  display: none;
+}
+
+.navbarsmall{
+  display:none;
+}
+
+.servicessmall{
+  display:none;
+}
+
+.goalssmall{
+  display:none;
+}
+
+.contactsmall{
+  display:none;
+}
+
+@media screen and (max-width: 600px){
+
+  #main .palmtrees{
+    height:300px;
+  }
+
+
+  #main .title{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top:0px !important;
+    margin-top: 0px !important;
+  }
+
+
+    #main .subtitle{
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .contact_button{
+      margin-top: 30px;
+      font-family: Raleway, monospace;
+      font-size: 12px;
+      color: white;
+      font-weight: bolder;
+      text-transform: uppercase;
+      padding: 5px;
+      border-radius: 0px;
+      border: 2px solid white;
+      background-color: transparent;
+    }
+
+  .contactbig{
+    display:none;
+  }
+
+  .contactsmall{
+    display:contents;
+  }
+
+.goalsbig{
+  display:none;
+}
+
+.goalssmall{
+  display:contents;
+}
+
+.servicesbig{
+  display:none;
+}
+
+.servicessmall{
+  display:contents;
+}
+
+.png2{
+  display:none;
+}
+
+
+.big{
+  font-size: calc(1.5rem + 1.2vw);
+}
+
+.medium{
+  font-size: calc(1rem + 1vw);
+}
+
+.small{
+  font-size: calc(0.7rem + 0.7vw);
+}
+
+.logo{
+  height:30px;
+}
+
+.navbarsmall{
+  display:contents;
+}
+
+header{
+position: sticky;
+}
+
+.navbarbig{
+  display:none;
+}
+
+
+
+#header #dropdown-small{
+  display: contents;
+}
+
+
+#dropdown-small .dropdown-menu{
+  background-color: transparent;
+}
+
+#dropdown-small .dropdown-item{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  color: black;
+  letter-spacing: 2px;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0,0,0,.01) 0 0 0.5px;
+}
+
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.container1 {
+  cursor: pointer;
+  background-color: grey;
+  border: none;
+}
+
+.bar1, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2{
+  width: 35px;
+  height: 5px;
+  background-color: #A3F0E1;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+}
