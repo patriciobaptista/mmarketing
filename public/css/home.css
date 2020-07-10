@@ -147,13 +147,6 @@ background-color: transparent;
 margin: 0 auto;
 }
 
-#header #dropdown-small{
-  display: none;
-}
-
-.navbarsmall{
-  display:none;
-}
 
 .servicessmall{
   display:none;
@@ -167,12 +160,72 @@ margin: 0 auto;
   display:none;
 }
 
+.logosmall{
+  height: 100px;
+  width: 300px;
+}
+
+#dropdown-small .dropdown-menu{
+  background-color: transparent;
+}
+
+#dropdown-small .dropdown-item{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  color: black;
+  letter-spacing: 2px;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0,0,0,.01) 0 0 0.5px;
+}
+
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.container1 {
+  cursor: pointer;
+  background-color: grey;
+  border: none;
+}
+
+.bar1, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2{
+  width: 35px;
+  height: 5px;
+  background-color: #A3F0E1;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
 @media screen and (max-width: 600px){
 
   #main .palmtrees{
     height:300px;
   }
-
 
   #main .title{
     font-size: 25px;
@@ -180,7 +233,6 @@ margin: 0 auto;
     padding-top:0px !important;
     margin-top: 0px !important;
   }
-
 
     #main .subtitle{
       font-size: 20px;
@@ -241,28 +293,13 @@ margin: 0 auto;
   font-size: calc(0.7rem + 0.7vw);
 }
 
-.logo{
-  height:30px;
-}
-
 .navbarsmall{
   display:contents;
-}
-
-header{
-position: sticky;
 }
 
 .navbarbig{
   display:none;
 }
-
-
-
-#header #dropdown-small{
-  display: contents;
-}
-
 
 #dropdown-small .dropdown-menu{
   background-color: transparent;
@@ -316,5 +353,4 @@ position: sticky;
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
-}
 }

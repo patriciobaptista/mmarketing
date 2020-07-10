@@ -23,11 +23,11 @@
   </head>
   <body>
     <header id="header" class="container-fluid">
-      <div class="row navbarbig">
-        <div id="logo" class="col-12 text-center pt-0">
+      <div class="row">
+        <div id="logo" class="navbarbig col-12 text-center pt-0">
           <img class="logobig" src="/storage/logo4.jpeg" alt="imagen">
         </div>
-        <div class="col-12 text-center">
+        <div class="navbarbig col-12 text-center">
           <nav id="navbar">
             <ul>
               <li><a class="navlink black family" href="#home">home</a></li>
@@ -38,9 +38,9 @@
             </ul>
           </nav>
         </div>
-      </div>
-      <div class="row navbarsmall">
-        <div class="col-sm-2">
+        </div>
+        <div class="row navbarsmall">
+        <div class="navbarsmall col-sm-2 text-left">
           <div id="dropdown-small" class="dropdown">
            <div onclick="myFunction(this)" class="container1 btn btn-secondary dropdown-toggle pt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          <div class="bar1"></div>
@@ -56,8 +56,11 @@
            </div>
          </div>
         </div>
+        <div class="navbarsmall col-sm-10 text-right">
+          <img class="logosmall" src="/storage/logo4.jpeg" alt="imagen">
+        </div>
+        </div>
 
-      </div>
       <script type="text/javascript">
       function myFunction(x) {
         x.classList.toggle("change");
@@ -70,7 +73,7 @@
         <span class="col-12 text-center pt-5 mt-5">
           <h1 class="title pt-5 family black">Proper marketing</h1>
           <h2 class="pt-0 subtitle family black">for growing<br>businesses</h2>
-          <button class="contact_button" type="button" name="button"> <a class="white" href="#contact">GET IN TOUCH</a></button>
+          <button onclick="window.location.href='#contact'" class="white contact_button" type="button" name="button">GET IN TOUCH</button>
         </span>
       </div>
       <div id="home" class="row">
