@@ -10,6 +10,16 @@
     <link rel="stylesheet" type = "text/css" href="/css/home.css">
     <link rel = "icon" type = "image/png" href = "/storage/logo4.png">
     <title>mmarketing</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172354918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172354918-1');
+</script>
+
   </head>
   <body>
     <header id="header" class="container-fluid">
@@ -46,9 +56,7 @@
            </div>
          </div>
         </div>
-        <div class="col-sm-10">
-            <img class="logo" src="/storage/logo.jpeg" alt="imagen">
-        </div>
+
       </div>
       <script type="text/javascript">
       function myFunction(x) {
