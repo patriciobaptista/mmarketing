@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/34b9ea8fdc.js"></script>
-    <link rel="stylesheet" type = "text/css" href="/css/home.css">
+    <link rel="stylesheet" type = "text/css" href="/css/test.css">
     <link rel = "icon" type = "image/png" href = "/storage/logo4.png">
     <title>mmarketing</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -23,7 +23,24 @@
   </head>
   <body>
     <header id="header" class="container-fluid">
-      <div class="row">
+      <nav class="row">
+        <div class="navbarsmall col-2 text-left">
+          <div onclick="myFunction(this)" class="container1 btn btn-secondary dropdown-toggle pt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="/">home</a>
+              <a class="dropdown-item" href="#about">about me</a>
+              <a class="dropdown-item" href="#services">services</a>
+              <a class="dropdown-item" href="#sectors">sectors</a>
+              <a class="dropdown-item" href="#contact">contact</a>
+          </div>
+        </div>
+        <div class="navbarsmall col-10 text-right">
+          <img class="logo" src="/storage/logo4.jpeg" alt="">
+        </div>
         <div id="logo" class="navbarbig col-12 text-center pt-0">
           <img class="logobig" src="/storage/logo4.jpeg" alt="imagen">
         </div>
@@ -38,33 +55,14 @@
             </ul>
           </nav>
         </div>
-        </div>
-        <div class="row navbarsmall">
-          <div id="dropdown-small" class="dropdown navbarsmall col-2">
-           <div onclick="myFunction(this)" class="container1 btn btn-secondary dropdown-toggle pt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         <div class="bar1"></div>
-         <div class="bar2"></div>
-         <div class="bar3"></div>
-       </div>
-           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-               <a class="dropdown-item" href="/">home</a>
-               <a class="dropdown-item" href="#about">about me</a>
-               <a class="dropdown-item" href="#services">services</a>
-               <a class="dropdown-item" href="#sectors">sectors</a>
-               <a class="dropdown-item" href="#contact">contact</a>
-           </div>
-         </div>
-        <div class="navbarsmall col-10 text-right">
-          <img class="logosmall" src="/storage/logo4.jpeg" alt="imagen">
-        </div>
-        </div>
+      </nav>
+
 
       <script type="text/javascript">
       function myFunction(x) {
         x.classList.toggle("change");
       }
       </script>
-
     </header>
     <main id="main" class="container-fluid pr-0 mr-0">
       <div class="row palmtrees pr-0 mr-0" style="background-image: url('/storage/palmtrees.png')">
@@ -232,6 +230,8 @@
           <img class="png" src="{{asset('/storage/white-palm.png')}}" alt="">
         </div>
     </footer>
+
+
   <script src="{{ asset('js/home.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
